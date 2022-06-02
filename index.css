@@ -17,6 +17,10 @@
     --grey: #BABABA;
     --off-white: #FAF8F7;
     --just-white: #FFFFFF;
+
+    /*Construct Var*/
+
+    --border: 2px solid black;
 }
 * {
     margin: 0;
@@ -26,4 +30,59 @@
 html {
     font-size: 62,5%;
     font-family: 'DM Sans', sans-serif;
+}
+header {
+    position: relative;
+    display: flex;
+    min-width: 320px;
+    height: 334px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    
+}
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 10px;
+    align-self: center;
+}
+header p {
+    margin-top: 20px;
+    color: var(--soft-orange);
+}
+header a {
+    margin-top: 20px;
+}
+header .header--button {
+    position: absolute;
+    top: 285px;
+    padding: 15px;
+    width: 229px;
+    border-radius: 10px;
+    border: var(--border);
+    background-color: var(--off-white);
+    align-self: center;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+header .header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    background-image: url('./assets/icons/down-arrow.svg');
+    margin-left: 10px;
+}
+.header--title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin-top: 20px;
+    align-self: center;
+    font-size: 1.7rem;
+    color: var(--just-white);
+    /*border: var(--border);*/
 }
