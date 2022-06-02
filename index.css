@@ -1,5 +1,29 @@
+/*
+    1. Position
+    2. Box Model
+    3. Tipografy
+    4. Visuals
+    5. Micelaneous
+*/
+
+:root {
+    /*colors*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html {
+    font-size: 62,5%;
+    font-family: 'DM Sans', sans-serif;
 }
