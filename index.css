@@ -209,3 +209,50 @@ main {
 .post-comision-table__title {
     background-color: var(--soft-blue);
 }
+
+
+/*start warm black styles section*/
+
+.warm-black-container {
+    position: relative;
+    background-color: var(--warm-black);
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+.warm-black-container .warm-black-container__img {
+    position: absolute;
+    width: 40px;
+    top: -10px;
+    left: calc(50% - 20px);
+}
+.warm-black-container h2,
+.warm-black-container p  {
+    color: var(--just-white);
+    text-align: center;
+}
+.warm-black-container p {
+    color: #808080;
+}
+
+.black-card {
+    background-color: var(--black);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.black-card h3,
+.black-card p {
+    color: var(--just-white);
+    text-align: left;
+    margin-top: 10px;
+}
+.black-card p {
+    color:#808080;
+}
