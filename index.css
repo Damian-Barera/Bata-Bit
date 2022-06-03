@@ -86,11 +86,11 @@ header .header--button span {
     color: var(--just-white);
     /*border: var(--border);*/
 }
+/*start middle senction*/
 main {
     width: 100%;
     min-width: 320px;
     height: auto;
-    background-color: var(--off-white);
 }
 .main-exchange-container {
     width: 100%;
@@ -98,6 +98,7 @@ main {
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
+    background-color: var(--off-white);
 }
 .main-exchange-container--title {
     width: 90%;
@@ -121,4 +122,90 @@ main {
     color: #757575;
     font-weight: 500;
     margin-bottom: 30px;
+}
+/*currency table styles*/
+
+.main-tables-container {
+    width: 100%;
+    height: auto;
+}
+.main-currency-table, .main-comision-table {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.main-currency-table .main-currency-table--title,
+.main-comision-table .main-comision-table--title {
+    color: var(--bitcoin-orange);
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.main-comision-table .main-comision-table--title {
+    color: var(--secondary-blue);
+}
+.currency-table--container,
+.comision-table--container {
+    width: 90%;
+    min-width: 235px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: var(--grey);
+}
+.currency-table--container table,
+.comision-table--container table {
+    width: 100%;
+    height: 100%;
+}
+.currency-table--container td,
+.comision-table--container td {
+    background-color: var(--just-white);
+    width: 50%;
+    height: 50px;
+}
+.currency-table--container .down {
+    background: url('./assets/icons/trending-down.svg')
+    center/cover no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin-left: 10px;
+}
+.currency-table--container .up {
+    background: url('./assets/icons/trending-up.svg')
+    center/cover no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin-left: 10px;
+}
+.table__right {
+    color: #757575;
+    font-weight: 400;
+}
+.table__top-left {
+    border-top-left-radius: 10px;
+}
+.table__top-right {
+    border-top-right-radius: 10px;
+}
+.table__bottom-left {
+    border-bottom-left-radius: 10px;
+}
+.table__bottom-right {
+    border-bottom-right-radius: 10px;
+}
+.post-currency-table__title,
+.post-comision-table__title {
+    padding: 10px;
+    background-color: var(--soft-orange);
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.post-comision-table__title {
+    background-color: var(--soft-blue);
 }
