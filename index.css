@@ -282,7 +282,7 @@ main {
 
 .white-card-section {
     width: 100%;
-    height: 1000px;
+    height: 600px;
     max-width: 900px;
     margin: 0 auto;
     margin-top: 60px;
@@ -299,14 +299,21 @@ main {
     color: #757575;
     margin-bottom: 50px;
 }
+
+/*Starts White card component*/
+
 .white-card-section .white-card {
     position: relative;
     width: 75%;
     min-width: 200px;
     max-width: 500px;
     margin: 0 auto;
-    height: 350px;
+    height: 320px;
     background-color: var(--just-white);
+}
+.white-card {
+    box-shadow: 0px 4px 8px rgb(89,73,30,0.16);
+    border-radius: 8px;
 }
 .white-card .white-card--tag {
     position: absolute;
@@ -328,10 +335,18 @@ main {
 .white-card .white-card--price {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: black;
+}
+.white-card .white-card--price span {
+    font-size: 1.2rem;
+    vertical-align: 20px;
+    color: #363636;
 }
 .white-card .white-card--price-explanation {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #757575;
 }
 .white-card .white-card--button {
@@ -355,5 +370,11 @@ main {
     center/cover no-repeat;
 }
 
+#blue {
+    background-color: var(--secondary-blue);
+}
+#black{
+    background-color: var(--warm-black);
+}
 
-/*finish the white-card--price styles*/
+/*Finish White card component*/
