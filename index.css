@@ -35,6 +35,8 @@ header {
     position: relative;
     display: flex;
     min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
     height: 334px;
     width: 100%;
     flex-direction: column;
@@ -87,11 +89,6 @@ header .header--button span {
     /*border: var(--border);*/
 }
 /*start middle senction*/
-main {
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-}
 .main-exchange-container {
     width: 100%;
     height: auto;
@@ -302,6 +299,12 @@ main {
 
 /*Starts White card component*/
 
+.white-card-section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
 .white-card-section .white-card {
     position: relative;
     width: 75%;
@@ -378,3 +381,46 @@ main {
 }
 
 /*Finish White card component*/
+
+footer {
+    display:flex;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 200px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+}
+footer a {
+    text-decoration: none;
+    color: var(--just-white);
+    padding-top: 10px;
+    
+}
+.footer-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.footer-right span {
+    background: url('./assets/icons/batata.svg')
+    center/cover no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    padding-bottom: 15px;
+}
+.footer-right p {
+    font-size: 10px;
+    padding-top: 15px;
+}
